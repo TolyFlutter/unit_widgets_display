@@ -1,0 +1,35 @@
+{
+  "name": "SliverGrid",
+  "path": "/src/widgets/sliver.dart",
+  "parents": [
+    "SliverMultiBoxAdaptorWidget",
+    "SliverWithKeepAliveWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Sliver家族的网格列表组件，和GirdView类似，通过count和extent构造。通常用于CustomScrollView中。",
+  "fields": [
+    {
+      "name": "gridDelegate",
+      "type": "SliverGridDelegate",
+      "required": true,
+      "desc": "控制子项大小和位置的委托。"
+    }
+  ],
+  "id": 188,
+  "localName": "Sliver网格",
+  "lever": 4,
+  "family": 4,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "SliverList基本使用",
+      "desc": [
+        "SliverGrid.count 指定轴向数量构造",
+        "SliverGrid.extent 指定轴向长度构造",
+        "属性特征同GridView,可详见之"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Spacer",
+  "path": "/src/widgets/spacer.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "只能用于Row、Column和Flex布局中,可利用剩余空间进行占位，使用flex属性可以给多个Spacer按比例分配空间。",
+  "fields": [
+    {
+      "name": "flex",
+      "type": "int",
+      "required": true,
+      "desc": "用于确定占用多少空间的弹性因子。"
+    }
+  ],
+  "id": 107,
+  "localName": "空间组件",
+  "lever": 3,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Spacer基本使用",
+      "desc": [
+        "一个Spacer会占据可延伸区域"
+      ]
+    },
+    {
+      "file": "node2_flex.dart",
+      "name": "多个Spacer空间分配",
+      "desc": [
+        "【flex】 : 剩余空间分配占比   【int】"
+      ]
+    }
+  ]
+}

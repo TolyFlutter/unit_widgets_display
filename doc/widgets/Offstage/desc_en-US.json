@@ -1,0 +1,35 @@
+{
+  "name": "Offstage",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Can contain a child component, and can change its visibility. The offstage property set to true means hidden.",
+  "fields": [
+    {
+      "name": "offstage",
+      "type": "bool",
+      "required": true,
+      "desc": "Whether the child is hidden from the rest of the tree."
+    }
+  ],
+  "id": 71,
+  "lever": 3,
+  "family": 2,
+  "linkIds": [
+    10
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of LimitedBox",
+      "desc": [
+        "【child】: Child component   【Widget】",
+        "【offstage】: Whether to disappear   【bool】"
+      ]
+    }
+  ],
+  "localName": "Disappearing Component"
+}

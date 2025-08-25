@@ -1,0 +1,31 @@
+{
+  "name": "OrientationBuilder",
+  "path": "/src/widgets/orientation_builder.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "能够回调父组件是横向还是纵向,可以据此来构建不同的子组件。",
+  "fields": [
+    {
+      "name": "builder",
+      "type": "OrientationWidgetBuilder",
+      "required": true,
+      "desc": "根据此小部件的方向构建此小部件下方的小部件。"
+    }
+  ],
+  "id": 203,
+  "localName": "方向构造器",
+  "lever": 2,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "OrientationBuilder基本使用",
+      "desc": [
+        "【builder】 : 方向组件构造器   【OrientationWidgetBuilder】"
+      ]
+    }
+  ]
+}

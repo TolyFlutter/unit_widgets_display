@@ -1,0 +1,45 @@
+{
+  "name": "Localizations",
+  "path": "/src/widgets/localizations.dart",
+  "parents": [
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "Provides internationalization resources for subtree nodes, implemented with the underlying dependency on InheritedWidget. The MaterialApp internally integrates this component, and its locale and delegates parameters are ultimately used for this component.",
+  "fields": [
+    {
+      "name": "locale",
+      "type": "Locale",
+      "required": true,
+      "desc": "The resources returned by [Localizations.of] will be specific to this locale."
+    },
+    {
+      "name": "delegates",
+      "type": "List<LocalizationsDelegate<dynamic>>",
+      "required": true,
+      "desc": "This list collectively defines the localized resources objects that can be retrieved with [Localizations.of]."
+    },
+    {
+      "name": "child",
+      "type": "Widget?",
+      "desc": "The widget below this widget in the tree."
+    }
+  ],
+  "id": 290,
+  "lever": 4,
+  "family": 1,
+  "linkIds": [
+    65,
+    346
+  ],
+  "nodes": [
+    {
+      "file": "node1.dart",
+      "name": "Get Current Language",
+      "desc": [
+        "Through Localizations.localeOf(context), you can retrieve the Locale data information stored in the nearest upper-level Localizations component based on the context."
+      ]
+    }
+  ],
+  "localName": "Internationalization"
+}

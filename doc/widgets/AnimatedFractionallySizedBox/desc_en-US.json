@@ -1,0 +1,60 @@
+{
+  "name": "AnimatedFractionallySizedBox",
+  "path": "/src/widgets/implicit_animations.dart",
+  "parents": [
+    "ImplicitlyAnimatedWidget",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "An animated version of FractionallySizedBox, which automatically and smoothly transitions to the target size and position of the child component within the specified duration when the widthFactor or heightFactor changes, or when the alignment changes.",
+  "fields": [
+    {
+      "name": "child",
+      "type": "Widget?",
+      "desc": "The widget below this widget in the tree."
+    },
+    {
+      "name": "heightFactor",
+      "type": "double?",
+      "desc": "{@macro flutter.widgets.basic.fractionallySizedBox.heightFactor}"
+    },
+    {
+      "name": "widthFactor",
+      "type": "double?",
+      "desc": "{@macro flutter.widgets.basic.fractionallySizedBox.widthFactor}"
+    },
+    {
+      "name": "alignment",
+      "type": "AlignmentGeometry",
+      "required": true,
+      "desc": "{@macro flutter.widgets.basic.fractionallySizedBox.alignment}"
+    }
+  ],
+  "id": 260,
+  "lever": 3,
+  "family": 1,
+  "linkIds": [
+    82,
+    120,
+    123,
+    121
+  ],
+  "nodes": [
+    {
+      "file": "node1.dart",
+      "name": "Animation Transition Effect",
+      "desc": [
+        "In this case, the heightFactor, widthFactor, and alignment parameters are modified when clicked to view the animation effect.",
+        "【child】 : Child component   【Widget】",
+        "【duration】 : Animation duration   【Duration】",
+        "【onEnd】 : Animation end callback   【Function()】",
+        "【alignment】 : Animation transformation center   【Alignment】",
+        "【curve】 : Animation curve   【Duration】",
+        "【heightFactor】 : Height factor   【double?】",
+        "【widthFactor】 : Width factor   【double?】",
+        "【turns】 : Rotation amount   【double】"
+      ]
+    }
+  ],
+  "localName": "Animated Fractionally Sized Box"
+}

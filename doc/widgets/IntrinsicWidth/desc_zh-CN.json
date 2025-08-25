@@ -1,0 +1,37 @@
+{
+  "name": "IntrinsicWidth",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "根据子元素的固有宽度度调整其子元素大小的组件,可解决很多布局的疑难杂症,但相对昂贵。",
+  "fields": [
+    {
+      "name": "stepWidth",
+      "type": "double?",
+      "desc": "如果非空，强制子项的宽度为此值的倍数。"
+    },
+    {
+      "name": "stepHeight",
+      "type": "double?",
+      "desc": "如果非空，强制子项的高度为此值的倍数。"
+    }
+  ],
+  "id": 297,
+  "localName": "固有宽",
+  "lever": 4,
+  "family": 2,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "IntrinsicWidth基本使用",
+      "desc": [
+        "【child】 : 子组件   【Widget】",
+        "如示例:上面宽可变动，中间宽固定,下面宽取前两者的最高值。"
+      ]
+    }
+  ]
+}

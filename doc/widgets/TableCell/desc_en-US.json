@@ -1,0 +1,37 @@
+{
+  "name": "TableCell",
+  "path": "/src/widgets/table.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "Must be used within the descendants of a Table component to control the vertical alignment of table children, and it doesn't have much significant function.",
+  "fields": [
+    {
+      "name": "verticalAlignment",
+      "type": "TableCellVerticalAlignment?",
+      "desc": "How this cell is aligned vertically."
+    },
+    {
+      "name": "child",
+      "type": "Widget",
+      "required": true,
+      "desc": "The child of this cell."
+    }
+  ],
+  "id": 317,
+  "lever": 1,
+  "family": 5,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of TableCell",
+      "desc": [
+        "【child】: Component   【Widget】",
+        "【verticalAlignment】: Vertical Alignment   【TableCellVerticalAlignment】"
+      ]
+    }
+  ],
+  "localName": "Table Cell"
+}

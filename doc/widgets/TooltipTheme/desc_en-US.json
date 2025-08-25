@@ -1,0 +1,33 @@
+{
+  "name": "TooltipTheme",
+  "path": "/src/material/tooltip_theme.dart",
+  "parents": [
+    "InheritedTheme",
+    "InheritedWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "Mainly used to set default properties for descendant Tooltip components uniformly. You can also retrieve the properties of the default TooltipTheme through this component.",
+  "fields": [
+    {
+      "name": "data",
+      "type": "TooltipThemeData",
+      "required": true,
+      "desc": "The properties for descendant [Tooltip] widgets."
+    }
+  ],
+  "id": 333,
+  "lever": 2,
+  "family": 5,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of TooltipTheme",
+      "desc": [
+        "You can specify the TooltipThemeData properties to set default styles for descendant Tooltip components, such as decoration, text style, display duration, margins, etc. You can also use TooltipTheme.of to get the theme properties of Tooltip."
+      ]
+    }
+  ],
+  "localName": "Tooltip Theme"
+}

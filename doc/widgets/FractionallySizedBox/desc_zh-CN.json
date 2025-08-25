@@ -1,0 +1,45 @@
+{
+  "name": "FractionallySizedBox",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "可容纳一个子组件，指定宽高分率,限定子组件区域为父容器宽高*各分率，及对齐方式alignment。",
+  "fields": [
+    {
+      "name": "widthFactor",
+      "type": "double?",
+      "desc": "{@template flutter.widgets.basic.fractionallySizedBox.widthFactor} 如果非空，给予子项的传入宽度的分数。"
+    },
+    {
+      "name": "heightFactor",
+      "type": "double?",
+      "desc": "{@template flutter.widgets.basic.fractionallySizedBox.heightFactor} 如果非空，给予子项的传入高度的分数。"
+    },
+    {
+      "name": "alignment",
+      "type": "AlignmentGeometry",
+      "required": true,
+      "desc": "{@template flutter.widgets.basic.fractionallySizedBox.alignment} 如何对齐子项。"
+    }
+  ],
+  "id": 82,
+  "localName": "分率盒",
+  "lever": 3,
+  "family": 2,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "FractionallySizedBox基本使用",
+      "desc": [
+        "【child】 : 孩子组件   【Widget】",
+        "【widthFactor】 : 宽分率   【double】",
+        "【heightFactor】 : 高分率   【double】",
+        "【alignment】 : 对齐方式   【AlignmentGeometry】"
+      ]
+    }
+  ]
+}

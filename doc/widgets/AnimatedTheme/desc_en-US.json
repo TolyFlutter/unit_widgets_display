@@ -1,0 +1,42 @@
+{
+  "name": "AnimatedTheme",
+  "path": "/src/material/theme.dart",
+  "parents": [
+    "ImplicitlyAnimatedWidget",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "A component with animation effects when the theme changes, essentially a combination of the Theme component and animation. You can specify ThemeData, animation duration, curve, end callback, etc. It is equivalent to an enhanced version of the Theme component.",
+  "fields": [
+    {
+      "name": "data",
+      "type": "ThemeData",
+      "required": true,
+      "desc": "Specifies the color and typography values for descendant widgets."
+    },
+    {
+      "name": "child",
+      "type": "Widget",
+      "required": true,
+      "desc": "The widget below this widget in the tree."
+    }
+  ],
+  "id": 224,
+  "lever": 2,
+  "family": 1,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of AnimatedTheme",
+      "desc": [
+        "【data】 : Theme data   【ThemeData】",
+        "【duration】 : Animation duration   【Duration】",
+        "【onEnd】 : Animation end callback   【Function()】",
+        "【curve】 : Animation curve   【Duration】",
+        "【child】 : Child widget   【Widget】"
+      ]
+    }
+  ],
+  "localName": "Animated Theme"
+}

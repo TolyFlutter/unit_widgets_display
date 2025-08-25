@@ -1,0 +1,48 @@
+{
+  "name": "LongPressDraggable",
+  "path": "/src/widgets/drag_target.dart",
+  "parents": [
+    "Draggable",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "Allows the component to be dragged anywhere on the interface when long-pressed, and can store data of a generic type T. It is usually used in combination with DragTarget to achieve the drag effect.",
+  "fields": [
+    {
+      "name": "hapticFeedbackOnStart",
+      "type": "bool",
+      "required": true,
+      "desc": "Whether haptic feedback should be triggered on drag start."
+    },
+    {
+      "name": "delay",
+      "type": "Duration",
+      "required": true,
+      "desc": "The duration that a user has to press down before a long press is registered."
+    }
+  ],
+  "id": 105,
+  "lever": 4,
+  "family": 1,
+  "linkIds": [
+    103,
+    104
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "LongPressDraggable used with DragTarget",
+      "desc": [
+        "【child】 : child   【Widget】",
+        "【feedback】 : child during drag   【Widget】",
+        "【axis】 : axis of drag   【Axis】",
+        "【data】 : data   【T】",
+        "【onDragStarted】 : start drag   【Function()】",
+        "【onDragEnd】 : end drag   【Function(DraggableDetails)】",
+        "【onDragCompleted】 : drag completed   【Function()】",
+        "【onDraggableCanceled】 : drag canceled   【Function(Velocity,Offset)】"
+      ]
+    }
+  ],
+  "localName": "Drag Target"
+}

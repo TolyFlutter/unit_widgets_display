@@ -1,0 +1,27 @@
+{
+  "name": "RotationTransition",
+  "path": "/src/widgets/transitions.dart",
+  "parents": [
+    "MatrixTransition",
+    "AnimatedWidget",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "Can accommodate a child component and make it perform a rotation animation. Requires an animator turns and has an alignment property.",
+  "fields": [],
+  "id": 90,
+  "lever": 3,
+  "family": 1,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of RotationTransition",
+      "desc": [
+        "【child】 : Child component   【Widget】",
+        "【turns】 : Whether to disappear   【Animation<double>】"
+      ]
+    }
+  ],
+  "localName": "Rotation Transition"
+}

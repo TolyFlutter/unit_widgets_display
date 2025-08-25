@@ -1,0 +1,40 @@
+{
+  "name": "ListBody",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "MultiChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "将若干子组件按照轴向进行排列，可设置的属性很少，一般很少使用，而选择使用ListView。",
+  "fields": [
+    {
+      "name": "mainAxis",
+      "type": "Axis",
+      "required": true,
+      "desc": "用作主轴的方向。"
+    },
+    {
+      "name": "reverse",
+      "type": "bool",
+      "required": true,
+      "desc": "列表主体是否在阅读方向上定位子项。"
+    }
+  ],
+  "id": 342,
+  "localName": "列表体",
+  "lever": 4,
+  "family": 3,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "ListView的基本使用",
+      "desc": [
+        "【mainAxis】 : 主轴方向   【Axis】",
+        "【reverse】: 是否反向   【bool】",
+        "【children】: 子组件集   【List<Widget>】"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "EndDrawerButton",
+  "path": "/src/material/action_buttons.dart",
+  "parents": [
+    "_ActionButton",
+    "IconButton",
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "A right drawer icon button, using EndDrawerButtonIcon to display the icon, the default click event can open the right drawer.",
+  "fields": [],
+  "id": 361,
+  "lever": 1,
+  "family": 0,
+  "linkIds": [
+    275,
+    276
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of EndDrawerButton",
+      "desc": [
+        "【onPressed】: Click event  【VoidCallback?】",
+        "【style】: Button style   【ButtonStyle?】",
+        "When onPressed is empty, clicking will open the right drawer."
+      ]
+    }
+  ],
+  "localName": "Right Drawer Button"
+}

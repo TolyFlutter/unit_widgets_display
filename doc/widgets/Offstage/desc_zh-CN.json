@@ -1,0 +1,35 @@
+{
+  "name": "Offstage",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "可容纳一个子组件，可更改其的消失与否。offstage属性为true表示隐藏。",
+  "fields": [
+    {
+      "name": "offstage",
+      "type": "bool",
+      "required": true,
+      "desc": "子项是否从树的其余部分隐藏。"
+    }
+  ],
+  "id": 71,
+  "localName": "消失组件",
+  "lever": 3,
+  "family": 2,
+  "linkIds": [
+    10
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "LimitedBox基本使用",
+      "desc": [
+        "【child】 : 孩子组件   【Widget】",
+        "【offstage】 : 是否消失   【bool】"
+      ]
+    }
+  ]
+}

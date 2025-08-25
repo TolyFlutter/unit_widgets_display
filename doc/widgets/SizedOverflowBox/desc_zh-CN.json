@@ -1,0 +1,40 @@
+{
+  "name": "SizedOverflowBox",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "可容纳一个子组件，且子组件允许溢出父组件区域，可以通过size属性对子组件进行偏移，拥有对齐属性alignment。",
+  "fields": [
+    {
+      "name": "alignment",
+      "type": "AlignmentGeometry",
+      "required": true,
+      "desc": "如何对齐子项。"
+    },
+    {
+      "name": "size",
+      "type": "Size",
+      "required": true,
+      "desc": "此小部件应尝试达到的大小。"
+    }
+  ],
+  "id": 84,
+  "localName": "尺寸溢出盒",
+  "lever": 3,
+  "family": 2,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "SizedOverflowBox基本使用",
+      "desc": [
+        "【child】 : 孩子组件   【Widget】",
+        "【size】 : 尺寸偏移   【Size】",
+        "【alignment】 : 对齐方式   【AlignmentGeometry】"
+      ]
+    }
+  ]
+}

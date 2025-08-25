@@ -1,0 +1,50 @@
+{
+  "name": "ClipRRect",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Can contain a child component and perform rounded rectangle clipping on it. Specify borderRadius as the corner radius.",
+  "fields": [
+    {
+      "name": "borderRadius",
+      "type": "BorderRadiusGeometry",
+      "required": true,
+      "desc": "The border radius of the rounded corners."
+    },
+    {
+      "name": "clipper",
+      "type": "CustomClipper<RRect>?",
+      "desc": "If non-null, determines which clip to use."
+    },
+    {
+      "name": "clipBehavior",
+      "type": "Clip",
+      "required": true,
+      "desc": "{@macro flutter.rendering.ClipRectLayer.clipBehavior}"
+    }
+  ],
+  "id": 68,
+  "lever": 3,
+  "family": 2,
+  "linkIds": [
+    66,
+    67,
+    69
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of ClipRRect",
+      "desc": [
+        "【child】: Child component   【Widget】",
+        "【borderRadius】: Border radius   【BorderRadius】",
+        "【clipBehavior】: Clipping behavior   【Clip】",
+        "【clipper】: Clipper   【CustomClipper<Rect>】"
+      ]
+    }
+  ],
+  "localName": "Rounded Rectangle Clipping"
+}

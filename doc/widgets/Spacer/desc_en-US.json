@@ -1,0 +1,38 @@
+{
+  "name": "Spacer",
+  "path": "/src/widgets/spacer.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "Can only be used in Row, Column, and Flex layouts. It can occupy the remaining space. The flex property can be used to allocate space proportionally among multiple Spacers.",
+  "fields": [
+    {
+      "name": "flex",
+      "type": "int",
+      "required": true,
+      "desc": "The flex factor to use in determining how much space to take up."
+    }
+  ],
+  "id": 107,
+  "lever": 3,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of Spacer",
+      "desc": [
+        "A Spacer will occupy the extendable area"
+      ]
+    },
+    {
+      "file": "node2_flex.dart",
+      "name": "Space Allocation with Multiple Spacers",
+      "desc": [
+        "【flex】 : Proportion of remaining space allocation   【int】"
+      ]
+    }
+  ],
+  "localName": "Space Component"
+}

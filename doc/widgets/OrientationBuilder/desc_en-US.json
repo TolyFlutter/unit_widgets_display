@@ -1,0 +1,31 @@
+{
+  "name": "OrientationBuilder",
+  "path": "/src/widgets/orientation_builder.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "Can callback whether the parent component is horizontal or vertical, and can build different child components based on this.",
+  "fields": [
+    {
+      "name": "builder",
+      "type": "OrientationWidgetBuilder",
+      "required": true,
+      "desc": "Builds the widgets below this widget given this widget's orientation."
+    }
+  ],
+  "id": 203,
+  "lever": 2,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of OrientationBuilder",
+      "desc": [
+        "【builder】: Orientation component builder   【OrientationWidgetBuilder】"
+      ]
+    }
+  ],
+  "localName": "Orientation Builder"
+}

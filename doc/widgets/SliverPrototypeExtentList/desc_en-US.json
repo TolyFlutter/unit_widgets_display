@@ -1,0 +1,37 @@
+{
+  "name": "SliverPrototypeExtentList",
+  "path": "/src/widgets/sliver_prototype_extent_list.dart",
+  "parents": [
+    "SliverMultiBoxAdaptorWidget",
+    "SliverWithKeepAliveWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "The prototypeItem property is a Widget, which is responsible for constraining the size of the item in the main axis direction, but it will not be displayed. The delegate accepts a SliverChildDelegate to complete the creation of the item.",
+  "fields": [
+    {
+      "name": "prototypeItem",
+      "type": "Widget",
+      "required": true,
+      "desc": "Defines the main axis extent of all of this sliver's children."
+    }
+  ],
+  "id": 314,
+  "lever": 2,
+  "family": 4,
+  "linkIds": [
+    185,
+    186
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of SliverPrototypeExtentList",
+      "desc": [
+        "【prototypeItem】 : Main axis size component   【Widget】",
+        "【delegate】 : Child delegate   【SliverChildDelegate】"
+      ]
+    }
+  ],
+  "localName": "Sliver Prototype Extent List"
+}

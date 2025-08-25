@@ -1,0 +1,51 @@
+{
+  "name": "TabPageSelectorIndicator",
+  "path": "/src/material/tabs.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "A circular component with a border, which can specify size, color, and border color. It is part of the TabPageSelector and is generally not used alone.",
+  "fields": [
+    {
+      "name": "backgroundColor",
+      "type": "Color",
+      "required": true,
+      "desc": "The indicator circle's background color."
+    },
+    {
+      "name": "borderColor",
+      "type": "Color",
+      "required": true,
+      "desc": "The indicator circle's border color."
+    },
+    {
+      "name": "size",
+      "type": "double",
+      "required": true,
+      "desc": "The indicator circle's diameter."
+    },
+    {
+      "name": "borderStyle",
+      "type": "BorderStyle",
+      "required": true,
+      "desc": "The indicator circle's border style."
+    }
+  ],
+  "id": 206,
+  "lever": 2,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of TabPageSelectorIndicator",
+      "desc": [
+        "【size】: size   【double】",
+        "【backgroundColor】: background color   【Color】",
+        "【borderColor】: border color    【Color】"
+      ]
+    }
+  ],
+  "localName": "Tab Indicator"
+}

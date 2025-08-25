@@ -1,0 +1,43 @@
+{
+  "name": "ClipOval",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Can contain a child component and clip it into an ellipse with the width and height as the major and minor axes.",
+  "fields": [
+    {
+      "name": "clipper",
+      "type": "CustomClipper<Rect>?",
+      "desc": "If non-null, determines which clip to use."
+    },
+    {
+      "name": "clipBehavior",
+      "type": "Clip",
+      "required": true,
+      "desc": "{@macro flutter.rendering.ClipRectLayer.clipBehavior}"
+    }
+  ],
+  "id": 66,
+  "lever": 3,
+  "family": 2,
+  "linkIds": [
+    67,
+    68,
+    69
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of ClipOval",
+      "desc": [
+        "【child】: Child component   【Widget】",
+        "【clipBehavior】: Clipping behavior   【Clip】",
+        "【clipper】: Clipper   【CustomClipper<RRect>】"
+      ]
+    }
+  ],
+  "localName": "Oval Clipping"
+}

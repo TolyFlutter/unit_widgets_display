@@ -1,0 +1,26 @@
+{
+  "name": "SliverMainAxisGroup",
+  "path": "/src/widgets/sliver.dart",
+  "parents": [
+    "MultiChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "可以容纳多个 Sliver 组件，让它们在滑动的主轴方向上视为一组。",
+  "fields": [],
+  "id": 268,
+  "localName": "主轴滑片组",
+  "lever": 4,
+  "family": 4,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1.dart",
+      "name": "SliverMainAxisGroup 基本使用",
+      "desc": [
+        "【slivers】 : 子组件列表   【List<Widget>】",
+        "可结合 SliverPersistentHeader 实现分组，标题吸顶效果。"
+      ]
+    }
+  ]
+}

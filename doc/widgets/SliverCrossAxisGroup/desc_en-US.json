@@ -1,0 +1,29 @@
+{
+  "name": "SliverCrossAxisGroup",
+  "path": "/src/widgets/sliver.dart",
+  "parents": [
+    "MultiChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Can contain multiple Sliver components, treating them as a group in the cross main axis direction of scrolling.",
+  "fields": [],
+  "id": 269,
+  "lever": 4,
+  "family": 4,
+  "linkIds": [
+    268,
+    270,
+    271
+  ],
+  "nodes": [
+    {
+      "file": "node1.dart",
+      "name": "Basic Usage of SliverCrossAxisGroup",
+      "desc": [
+        "【slivers】 : List of child components   【List<Widget>】"
+      ]
+    }
+  ],
+  "localName": "Cross Axis Sliver Group"
+}

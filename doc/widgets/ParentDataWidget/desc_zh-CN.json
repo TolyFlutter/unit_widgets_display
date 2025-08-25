@@ -1,0 +1,30 @@
+{
+  "name": "ParentDataWidget",
+  "path": "/src/widgets/framework.dart",
+  "abstract": true,
+  "parents": [
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "抽象类，用于将 ParentData 信息挂钩到 RenderObjectWidget 子组件上。其子类有 Positioned、Flexible、Expanded等，这些组件只能用于特定的组件之下。",
+  "fields": [],
+  "id": 347,
+  "localName": "父数据组件",
+  "lever": 1,
+  "family": 5,
+  "linkIds": [
+    106,
+    109,
+    108,
+    315
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "ParentDataWidget 介绍",
+      "desc": [
+        "【child】 : 子组件   【Widget】"
+      ]
+    }
+  ]
+}

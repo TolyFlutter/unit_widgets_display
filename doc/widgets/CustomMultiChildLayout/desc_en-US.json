@@ -1,0 +1,36 @@
+{
+  "name": "CustomMultiChildLayout",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "MultiChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Use a delegate class to control the layout of a set of child components. Child components must be identified using the LayoutId component.",
+  "fields": [
+    {
+      "name": "delegate",
+      "type": "MultiChildLayoutDelegate",
+      "required": true,
+      "desc": "The delegate that controls the layout of the children."
+    }
+  ],
+  "id": 341,
+  "lever": 4,
+  "family": 3,
+  "linkIds": [
+    315,
+    285
+  ],
+  "nodes": [
+    {
+      "file": "node_01.dart",
+      "name": "Basic Usage of CustomMultiChildLayout",
+      "desc": [
+        "【children】: Set of child components   【List<Widget>】",
+        "【delegate】: Layout delegate   【MultiChildLayoutDelegate】"
+      ]
+    }
+  ],
+  "localName": "General Multi-Child Layout"
+}

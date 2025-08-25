@@ -1,0 +1,56 @@
+{
+  "name": "UnconstrainedBox",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "Can contain a child component and remove all area constraints of the component, displaying its own size.",
+  "fields": [
+    {
+      "name": "textDirection",
+      "type": "TextDirection?",
+      "desc": "The text direction to use when interpreting the [alignment] if it is an [AlignmentDirectional]."
+    },
+    {
+      "name": "alignment",
+      "type": "AlignmentGeometry",
+      "required": true,
+      "desc": "The alignment to use when laying out the child."
+    },
+    {
+      "name": "constrainedAxis",
+      "type": "Axis?",
+      "desc": "The axis to retain constraints on, if any."
+    },
+    {
+      "name": "clipBehavior",
+      "type": "Clip",
+      "required": true,
+      "desc": "{@macro flutter.material.Material.clipBehavior}"
+    },
+    {
+      "name": "child",
+      "type": "Widget?",
+      "desc": "The widget below this widget in the tree."
+    }
+  ],
+  "id": 81,
+  "lever": 3,
+  "family": 0,
+  "linkIds": [
+    80
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of UnconstrainedBox",
+      "desc": [
+        "【child】: Child component 【Widget】",
+        "【constrainedAxis】: Axes still constrained*2 【Axis】",
+        "【alignment】: Alignment method 【AlignmentGeometry】"
+      ]
+    }
+  ],
+  "localName": "Unconstrained Box"
+}

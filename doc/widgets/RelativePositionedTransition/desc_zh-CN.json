@@ -1,0 +1,41 @@
+{
+  "name": "RelativePositionedTransition",
+  "path": "/src/widgets/transitions.dart",
+  "parents": [
+    "AnimatedWidget",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "AnimatedWidget的子类,使用Rect类型的动画器让子组件在两个Rect对象之间进行过渡动画。",
+  "fields": [
+    {
+      "name": "size",
+      "type": "Size",
+      "required": true,
+      "desc": "[Positioned] 小部件的偏移相对于原点为 0,0 的此大小的框。"
+    },
+    {
+      "name": "child",
+      "type": "Widget",
+      "required": true,
+      "desc": "树中此小部件下方的小部件。"
+    }
+  ],
+  "id": 115,
+  "localName": "矩形位置变换",
+  "lever": 3,
+  "family": 1,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "RelativePositionedTransition基本使用",
+      "desc": [
+        "【child】 : 孩子组件   【Widget】",
+        "【size】 : 左和上的偏移量   【Size】",
+        "【rect】 : 动画   【Animation<Rect>】",
+        "    PositionedTransition组件只能在Stack内起作用"
+      ]
+    }
+  ]
+}

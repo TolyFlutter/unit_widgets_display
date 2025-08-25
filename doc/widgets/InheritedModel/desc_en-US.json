@@ -1,0 +1,29 @@
+{
+  "name": "InheritedModel",
+  "path": "/src/widgets/inherited_model.dart",
+  "abstract": true,
+  "parents": [
+    "InheritedWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "It is an abstract subclass of InheritedWidget, which passes data to the subtree through context and controls the granularity of dependency notifications through Aspect.",
+  "fields": [],
+  "id": 336,
+  "lever": 4,
+  "family": 5,
+  "linkIds": [
+    346
+  ],
+  "nodes": [
+    {
+      "file": "node1.dart",
+      "name": "InheritedModel Usage",
+      "desc": [
+        "【child】: child component   【Widget】",
+        "Below is a custom InheritedModel that implements subtree sharing of data; and defines two aspects, color and value, to control the granularity of dependency notifications."
+      ]
+    }
+  ],
+  "localName": "Shared Model"
+}

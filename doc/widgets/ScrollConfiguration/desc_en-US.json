@@ -1,0 +1,38 @@
+{
+  "name": "ScrollConfiguration",
+  "path": "/src/widgets/scroll_configuration.dart",
+  "parents": [
+    "InheritedWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "Needs to wrap a scrollable component and control the scrolling effect through the behavior property, which can remove the blue shadow of the scrolling, etc.",
+  "fields": [
+    {
+      "name": "behavior",
+      "type": "ScrollBehavior",
+      "required": true,
+      "desc": "How [Scrollable] widgets that are descendants of [child] should behave."
+    }
+  ],
+  "id": 180,
+  "lever": 3,
+  "family": 5,
+  "linkIds": [
+    162,
+    163,
+    164
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of ScrollConfiguration",
+      "desc": [
+        "【child】: Child component 【Widget】",
+        "【behavior】: Scroll behavior 【ScrollBehavior】",
+        "    ScrollConfiguration can be used to remove the blue shadow of ListView"
+      ]
+    }
+  ],
+  "localName": "iOS Menu Button"
+}

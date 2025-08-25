@@ -1,0 +1,15 @@
+{
+  "name": "ViewCollection",
+  "path": "/src/widgets/view.dart",
+  "parents": [
+    "_MultiChildComponentWidget",
+    "Widget"
+  ],
+  "desc": " A collection of sibling [View]s.",
+  "fields": [],
+  "id": 557,
+  "lever": 3,
+  "family": 6,
+  "linkIds": [],
+  "nodes": []
+}

@@ -1,0 +1,43 @@
+{
+  "name": "GridTile",
+  "path": "/src/material/grid_tile.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "Flutter提供的一个通用列表条目结构，可指定头、尾、子组件，常用于网格列表。",
+  "fields": [
+    {
+      "name": "header",
+      "type": "Widget?",
+      "desc": "显示在此网格磁贴顶部的小部件。"
+    },
+    {
+      "name": "footer",
+      "type": "Widget?",
+      "desc": "显示在此网格磁贴底部的小部件。"
+    },
+    {
+      "name": "child",
+      "type": "Widget",
+      "required": true,
+      "desc": "填充磁贴的小部件。"
+    }
+  ],
+  "id": 21,
+  "localName": "网格瓦片",
+  "lever": 3,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "GridTile的基本表现如下",
+      "desc": [
+        "【header】: 头组件   【Widget】",
+        "【child】: 子组件   【Widget】",
+        "【footer】: 脚组件   【Widget】"
+      ]
+    }
+  ]
+}

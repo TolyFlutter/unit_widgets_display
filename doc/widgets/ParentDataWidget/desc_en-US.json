@@ -1,0 +1,30 @@
+{
+  "name": "ParentDataWidget",
+  "path": "/src/widgets/framework.dart",
+  "abstract": true,
+  "parents": [
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "An abstract class used to hook ParentData information to RenderObjectWidget child components. Its subclasses include Positioned, Flexible, Expanded, etc. These components can only be used under specific components.",
+  "fields": [],
+  "id": 347,
+  "lever": 1,
+  "family": 5,
+  "linkIds": [
+    106,
+    109,
+    108,
+    315
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Introduction to ParentDataWidget",
+      "desc": [
+        "【child】: Child component   【Widget】"
+      ]
+    }
+  ],
+  "localName": "Parent Data Widget"
+}

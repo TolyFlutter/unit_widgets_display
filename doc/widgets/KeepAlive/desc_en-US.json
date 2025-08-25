@@ -1,0 +1,34 @@
+{
+  "name": "KeepAlive",
+  "path": "/src/widgets/sliver.dart",
+  "parents": [
+    "ParentDataWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "Whether the state of the child needs to be kept alive in a lazy-loaded list. It is the underlying implementation of AutomaticKeepAlive and is generally not used alone.",
+  "fields": [
+    {
+      "name": "keepAlive",
+      "type": "bool",
+      "required": true,
+      "desc": "Whether to keep the child alive."
+    }
+  ],
+  "id": 316,
+  "lever": 1,
+  "family": 5,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Introduction to KeepAlive",
+      "desc": [
+        "【child】: *Child component   【Widget】",
+        "【keepAlive】: *Whether to keep alive   【bool】",
+        "In the Flutter framework layer, it is only used in AutomaticKeepAlive. The source code also mentions that it is rarely used alone. This example demonstrates the state keep-alive of ListView items."
+      ]
+    }
+  ],
+  "localName": "Keep Alive"
+}

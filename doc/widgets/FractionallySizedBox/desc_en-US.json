@@ -1,0 +1,45 @@
+{
+  "name": "FractionallySizedBox",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Can contain a child component, specify width and height fractions, limit the child component area to the parent container's width and height * each fraction, and alignment.",
+  "fields": [
+    {
+      "name": "widthFactor",
+      "type": "double?",
+      "desc": "{@template flutter.widgets.basic.fractionallySizedBox.widthFactor} If non-null, the fraction of the incoming width given to the child."
+    },
+    {
+      "name": "heightFactor",
+      "type": "double?",
+      "desc": "{@template flutter.widgets.basic.fractionallySizedBox.heightFactor} If non-null, the fraction of the incoming height given to the child."
+    },
+    {
+      "name": "alignment",
+      "type": "AlignmentGeometry",
+      "required": true,
+      "desc": "{@template flutter.widgets.basic.fractionallySizedBox.alignment} How to align the child."
+    }
+  ],
+  "id": 82,
+  "lever": 3,
+  "family": 2,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of FractionallySizedBox",
+      "desc": [
+        "【child】 : Child component   【Widget】",
+        "【widthFactor】 : Width fraction   【double】",
+        "【heightFactor】 : Height fraction   【double】",
+        "【alignment】 : Alignment   【AlignmentGeometry】"
+      ]
+    }
+  ],
+  "localName": "FractionallySizedBox"
+}

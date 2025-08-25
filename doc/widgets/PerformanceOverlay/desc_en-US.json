@@ -1,0 +1,32 @@
+{
+  "name": "PerformanceOverlay",
+  "path": "/src/widgets/performance_overlay.dart",
+  "parents": [
+    "LeafRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "It is very convenient to enable two bar charts for performance monitoring, making it easy to see the changes in frame rate when refreshing the interface.",
+  "fields": [
+    {
+      "name": "optionsMask",
+      "type": "int",
+      "required": true,
+      "desc": "The mask is created by shifting 1 by the index of the specific [PerformanceOverlayOption] to enable."
+    }
+  ],
+  "id": 312,
+  "lever": 2,
+  "family": 6,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of PerformanceOverlay",
+      "desc": [
+        "Using PerformanceOverlay.allEnabled can start all monitoring items."
+      ]
+    }
+  ],
+  "localName": "Performance Overlay"
+}

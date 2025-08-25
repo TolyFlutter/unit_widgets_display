@@ -1,0 +1,44 @@
+{
+  "name": "AbsorbPointer",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "Contains a child component, and it can decide whether the child ignores gesture events by specifying the ignoring attribute, while it itself accepts events.",
+  "fields": [
+    {
+      "name": "absorbing",
+      "type": "bool",
+      "required": true,
+      "desc": "Whether this widget absorbs pointers during hit testing."
+    },
+    {
+      "name": "ignoringSemantics",
+      "type": "bool?",
+      "desc": "Whether the semantics of this render object is ignored when compiling the semantics tree."
+    }
+  ],
+  "id": 295,
+  "lever": 4,
+  "family": 2,
+  "linkIds": [
+    146,
+    149,
+    150,
+    292
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of AbsorbPointer",
+      "desc": [
+        "【child】: Child component   【Widget】",
+        "【absorbing】: Whether to absorb events   【bool】",
+        "As shown below, when the Switch is selected, absorbing is true, and the button event will be absorbed and cannot be clicked."
+      ]
+    }
+  ],
+  "localName": "Absorb Click"
+}

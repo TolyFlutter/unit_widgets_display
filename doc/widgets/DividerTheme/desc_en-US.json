@@ -1,0 +1,37 @@
+{
+  "name": "DividerTheme",
+  "path": "/src/material/divider_theme.dart",
+  "parents": [
+    "InheritedTheme",
+    "InheritedWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "Mainly used to set default properties for descendant Divider type components uniformly, and it can also be used to obtain the default properties of Divider.",
+  "fields": [
+    {
+      "name": "data",
+      "type": "DividerThemeData",
+      "required": true,
+      "desc": "The properties for descendant [Divider]s, [VerticalDivider]s, dividers between [ListTile]s, and dividers between rows in [DataTable]s."
+    }
+  ],
+  "id": 329,
+  "lever": 3,
+  "family": 5,
+  "linkIds": [
+    34,
+    35
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Using DividerTheme",
+      "desc": [
+        "The property parameters are similar to Divider. You can obtain the divider theme data through DividerTheme.of,",
+        "and you can also set default styles for the dividers of DividerTheme【descendants】, including color, thickness, height, etc."
+      ]
+    }
+  ],
+  "localName": "Divider Style"
+}

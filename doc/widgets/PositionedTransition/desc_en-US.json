@@ -1,0 +1,34 @@
+{
+  "name": "PositionedTransition",
+  "path": "/src/widgets/transitions.dart",
+  "parents": [
+    "AnimatedWidget",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "Can only be used in a Stack, can contain one child component, allowing it to animate between two rectangles, requires an animator rect.",
+  "fields": [
+    {
+      "name": "child",
+      "type": "Widget",
+      "required": true,
+      "desc": "The widget below this widget in the tree."
+    }
+  ],
+  "id": 93,
+  "lever": 3,
+  "family": 1,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of PositionedTransition",
+      "desc": [
+        "【child】 : Child component   【Widget】",
+        "【rect】 : Animation   【Animation<RelativeRect>】",
+        "    The PositionedTransition component only works within a Stack"
+      ]
+    }
+  ],
+  "localName": "Position Transition"
+}

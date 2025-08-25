@@ -1,0 +1,41 @@
+{
+  "name": "OutlinedButton",
+  "path": "/src/material/outlined_button.dart",
+  "parents": [
+    "ButtonStyleButton",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "A Material-style outlined button, similar in behavior to OutlineButton. Properties such as border, color, and shadow can be changed through styling.",
+  "fields": [],
+  "id": 355,
+  "lever": 3,
+  "family": 1,
+  "linkIds": [
+    353,
+    27,
+    354
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of OutlinedButton",
+      "desc": [
+        "【child】: Button content 【Widget】",
+        "【onPressed】: Click event 【VoidCallback】",
+        "【onLongPress】: Long press event 【VoidCallback】"
+      ]
+    },
+    {
+      "file": "node2_style.dart",
+      "name": "OutlinedButton Style",
+      "desc": [
+        "【style】: Button style 【ButtonStyle】",
+        "【focusNode】: Focus 【FocusNode】",
+        "【clipBehavior】: Clip behavior 【Clip】",
+        "【autofocus】: Autofocus 【bool】"
+      ]
+    }
+  ],
+  "localName": "Outlined Button"
+}

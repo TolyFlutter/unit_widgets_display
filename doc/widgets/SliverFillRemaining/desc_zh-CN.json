@@ -1,0 +1,47 @@
+{
+  "name": "SliverFillRemaining",
+  "path": "/src/widgets/sliver_fill.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "一个包含单个box子元素的sliver，它填充了视窗中的剩余空间。可指定两个bool值控制滑动效果，如下示例,自己体会。",
+  "fields": [
+    {
+      "name": "child",
+      "type": "Widget?",
+      "desc": "填充视口中剩余空间的框子小部件。"
+    },
+    {
+      "name": "hasScrollBody",
+      "type": "bool",
+      "required": true,
+      "desc": "指示子项是否具有可滚动主体，此值不能为 null。"
+    },
+    {
+      "name": "fillOverscroll",
+      "type": "bool",
+      "required": true,
+      "desc": "指示子项是否应拉伸以填充由某些滚动物理（如 iOS 的默认滚动物理）创建的过度滚动区域。此标志仅在 [hasScrollBody] 为 false 时相关。"
+    }
+  ],
+  "id": 306,
+  "localName": "Sliver填补剩余",
+  "lever": 4,
+  "family": 4,
+  "linkIds": [
+    183,
+    251
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "SliverFillRemaining基本使用",
+      "desc": [
+        "【hasScrollBody】 : 是否具有滚动主体   【bool】",
+        "【fillOverscroll】 : 是否可填充滚动区域   【bool】",
+        "【child】 : 子组件   【Widget】"
+      ]
+    }
+  ]
+}

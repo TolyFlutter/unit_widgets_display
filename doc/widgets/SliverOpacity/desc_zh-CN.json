@@ -1,0 +1,39 @@
+{
+  "name": "SliverOpacity",
+  "path": "/src/widgets/sliver.dart",
+  "parents": [
+    "SingleChildRenderObjectWidget",
+    "RenderObjectWidget",
+    "Widget"
+  ],
+  "desc": "可容纳一个Sliver家族的子组件，并通过opacity来指定子组件的透明度。",
+  "fields": [
+    {
+      "name": "opacity",
+      "type": "double",
+      "required": true,
+      "desc": "缩放 sliver 子项 alpha 值的分数。"
+    },
+    {
+      "name": "alwaysIncludeSemantics",
+      "type": "bool",
+      "required": true,
+      "desc": "是否始终包含 sliver 子项的语义信息。"
+    }
+  ],
+  "id": 192,
+  "localName": "Sliver透明度",
+  "lever": 3,
+  "family": 4,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "SliverOpacity基本使用",
+      "desc": [
+        "【opacity】 : 透明度   【double】",
+        "【sliver】 : 子组件  【Function()】"
+      ]
+    }
+  ]
+}

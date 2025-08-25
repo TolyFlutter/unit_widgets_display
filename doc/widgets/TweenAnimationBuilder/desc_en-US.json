@@ -1,0 +1,48 @@
+{
+  "name": "TweenAnimationBuilder",
+  "path": "/src/widgets/tween_animation_builder.dart",
+  "parents": [
+    "ImplicitlyAnimatedWidget",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "Animates related properties through the Tween, and performs partial builds through the builder to reduce the refresh scope. No need for custom animators, you can specify animation duration, curve, and end callback.",
+  "fields": [
+    {
+      "name": "tween",
+      "type": "Tween<T>",
+      "required": true,
+      "desc": "Defines the target value for the animation."
+    },
+    {
+      "name": "builder",
+      "type": "ValueWidgetBuilder<T>",
+      "required": true,
+      "desc": "Called every time the animation value changes."
+    },
+    {
+      "name": "child",
+      "type": "Widget?",
+      "desc": "The child widget to pass to the builder."
+    }
+  ],
+  "id": 226,
+  "lever": 3,
+  "family": 1,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "TweenAnimationBuilder Usage Example",
+      "desc": [
+        "【tween】 : *Tween   【Tween<T>】",
+        "【duration】 : *Duration   【Duration】",
+        "【builder】 : *Builder   【ValueWidgetBuilder<T>】",
+        "【curve】 : Animation Curve   【Curve】",
+        "【onEnd】 : End Callback   【VoidCallback】",
+        "【child】 : Child Widget   【Widget】"
+      ]
+    }
+  ],
+  "localName": "Tween Animation Builder"
+}

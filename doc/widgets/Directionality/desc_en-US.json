@@ -1,0 +1,37 @@
+{
+  "name": "Directionality",
+  "path": "/src/widgets/basic.dart",
+  "parents": [
+    "_UbiquitousInheritedWidget",
+    "InheritedWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": "Set the property value uniformly for components with the textDirection attribute for descendants, or get the default textDirection attribute through Directionality.of(context).",
+  "fields": [
+    {
+      "name": "textDirection",
+      "type": "TextDirection",
+      "required": true,
+      "desc": "The text direction for this subtree."
+    }
+  ],
+  "id": 319,
+  "lever": 2,
+  "family": 5,
+  "linkIds": [
+    2,
+    94
+  ],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of Directionality",
+      "desc": [
+        "【textDirection】: Text arrangement direction   【TextDirection】",
+        "【child】: Child component   【Widget】"
+      ]
+    }
+  ],
+  "localName": "Directionality"
+}

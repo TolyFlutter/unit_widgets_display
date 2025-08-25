@@ -1,0 +1,17 @@
+{
+  "name": "AutocompleteHighlightedOption",
+  "path": "/src/widgets/autocomplete.dart",
+  "parents": [
+    "InheritedNotifier",
+    "InheritedWidget",
+    "ProxyWidget",
+    "Widget"
+  ],
+  "desc": " An inherited widget used to indicate which autocomplete option should be highlighted for keyboard navigation.",
+  "fields": [],
+  "id": 364,
+  "lever": 3,
+  "family": 5,
+  "linkIds": [],
+  "nodes": []
+}

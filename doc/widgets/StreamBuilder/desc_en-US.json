@@ -1,0 +1,39 @@
+{
+  "name": "StreamBuilder",
+  "path": "/src/widgets/async.dart",
+  "parents": [
+    "StreamBuilderBase",
+    "StatefulWidget",
+    "Widget"
+  ],
+  "desc": "Can specify a stream object, able to listen to the state of asynchronous execution, and build different interfaces in the constructor based on the state.",
+  "fields": [
+    {
+      "name": "builder",
+      "type": "AsyncWidgetBuilder<T>",
+      "required": true,
+      "desc": "The build strategy currently used by this builder."
+    },
+    {
+      "name": "initialData",
+      "type": "T?",
+      "desc": "The data that will be used to create the initial snapshot."
+    }
+  ],
+  "id": 173,
+  "lever": 5,
+  "family": 1,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "Basic Usage of StreamBuilder",
+      "desc": [
+        "【stream】 : Child component   【Stream<T>】",
+        "【initialData】 : Initial data   【T】",
+        "【builder】 : Click event  【AsyncWidgetBuilder<T>】"
+      ]
+    }
+  ],
+  "localName": "Stream Builder"
+}

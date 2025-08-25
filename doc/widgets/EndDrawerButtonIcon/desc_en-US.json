@@ -1,0 +1,24 @@
+{
+  "name": "EndDrawerButtonIcon",
+  "path": "/src/material/action_buttons.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "A right drawer Icon that displays the corresponding icon based on the platform. It can be customized with the ActionIconTheme.",
+  "fields": [],
+  "id": 275,
+  "lever": 1,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "EndDrawerButtonIcon Effect",
+      "desc": [
+        "The _ActionIcon component adapts the right drawer button icon for different platforms based on the ActionIconTheme."
+      ]
+    }
+  ],
+  "localName": "Right Drawer Button Icon"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CheckedModeBanner",
+  "path": "/src/widgets/banner.dart",
+  "parents": [
+    "StatelessWidget",
+    "Widget"
+  ],
+  "desc": "仅在debug运行模式中显示右上角角标，没什么太大卵用。在 MaterialApp 组件源码中有使用场景。",
+  "fields": [
+    {
+      "name": "child",
+      "type": "Widget",
+      "required": true,
+      "desc": "在横幅后面显示的小部件。"
+    }
+  ],
+  "id": 215,
+  "localName": "debug标签",
+  "lever": 1,
+  "family": 0,
+  "linkIds": [],
+  "nodes": [
+    {
+      "file": "node1_base.dart",
+      "name": "CheckedModeBanner基本使用",
+      "desc": [
+        "【child】 : 组件   【Widget】"
+      ]
+    }
+  ]
+}
