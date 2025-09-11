@@ -12,27 +12,14 @@ class WidgetInspectorDemo extends StatelessWidget {
       height: 200,
       child: WidgetInspector(
         child: const HomePage(),
-        tapBehaviorButtonBuilder: _tapBehaviorButtonBuilder,
-        exitWidgetSelectionButtonBuilder: null,
-        moveExitWidgetSelectionButtonBuilder: _selectButtonBuilder,
+        // tapBehaviorButtonBuilder: _tapBehaviorButtonBuilder,
+        // exitWidgetSelectionButtonBuilder: null,
+        // moveExitWidgetSelectionButtonBuilder: _selectButtonBuilder,
+        selectButtonBuilder: (BuildContext context, void Function() onPressed) {
+          return Container();
+        },
       ),
     );
-  }
-
-  Widget _tapBehaviorButtonBuilder(
-    BuildContext context, {
-    required VoidCallback onPressed,
-    required bool selectionOnTapEnabled,
-    required String semanticsLabel,
-  }) {
-    return Container();
-  }
-
-  Widget _selectButtonBuilder(BuildContext context,
-      {required VoidCallback onPressed,
-      required String semanticsLabel,
-      bool? usesDefaultAlignment}) {
-    return Container();
   }
 }
 
